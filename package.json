@@ -1,0 +1,30 @@
+{
+  "name": "basic-auth-generator",
+  "version": "1.0.0",
+  "description": "A simple cli interface to create HTTP Basic Authentication strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard --verbose",
+    "lint:fix": "standard --fix --verbose",
+    "precommit": "npm test"
+  },
+  "bin": {
+    "basic-auth": "./index.js"
+  },
+  "keywords": [
+    "http",
+    "auth",
+    "basic auth",
+    "http basic auth",
+    "cli"
+  ],
+  "author": "Felix Dürrwald <mplabs@mplabs.de>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "12.0.1"
+  },
+  "devDependencies": {
+    "standard": "11.0.1"
+  }
+}
